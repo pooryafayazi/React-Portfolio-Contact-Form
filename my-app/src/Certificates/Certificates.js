@@ -1,4 +1,5 @@
 import React, { useMemo, useState } from 'react';
+import Button from '../Button/Button';
 import data from './certificates.json';
 import './Certificates.css'
 
@@ -20,15 +21,17 @@ const Certificates = () => {
             <div className="certs-head">
                 <h3>گواهینامه‌های من</h3>
                 <div className="certs-controls">
-                    <button type="button" onClick={prev} aria-label="قبلی">‹</button>
+                    {/* <button type="button" onClick={prev} aria-label="قبلی">‹</button> */}
+                    <Button onClick={prev} aria-label="قبلی" variant="outline" size="sm">‹</Button>
                     <span className="counter">{idx + 1}/{max}</span>
-                    <button type="button" onClick={next} aria-label="بعدی">›</button>
+                    {/* <button type="button" onClick={next} aria-label="بعدی">›</button> */}
+                    <Button onClick={next} aria-label="بعدی" variant="outline" size="sm">›</Button>
                 </div>
             </div>
 
             <div className="certs-viewport">
                 <img
-                    src={item.image} /* for deploy: `${process.env.PUBLIC_URL}${item.image}` */
+                    src={item.image}
                     alt={`${item.title} – ${item.issuer}`}
                     className="certs-img"
                     loading="lazy"

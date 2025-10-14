@@ -1,6 +1,7 @@
 import React from 'react';
 import Certificates from '../Certificates/Certificates';
 
+
 const About = () => {
   return (
     <section>

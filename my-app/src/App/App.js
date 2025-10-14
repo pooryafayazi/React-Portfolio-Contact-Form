@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Home from '../Home/Home';
 import About from '../About/About.js';
 import Contact from '../Contact/Contact.js';
@@ -9,6 +8,7 @@ import Footer from '../Footer/Footer';
 import Thanks from '../Thanks/Thanks';
 import { Route, Routes} from 'react-router-dom';
 import './App.css'
+
 
 function App() {
   return (

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "سامانه نوبت‌دهی سریع (quickservice)",
-    "year": "1403-1404",
+    "year": "1404",
     "stack": ["Django", "DRF", "PostgreSQL", "Nginx", "Docker", "AJAX"],
     "description": "رزرو چندمرحله‌ای، OTP، امتیازدهی مشتری، گزارش‌گیری و تقویم شمسی؛ Branch-aware و محدودیت رزرو فعال.",
     "repo": "https://kavianico.ir/quickservice/reservation/", 

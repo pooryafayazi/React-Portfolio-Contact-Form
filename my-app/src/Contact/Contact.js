@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import Button from '../Button/Button';
 import './Contact.css'
 
 
@@ -65,7 +66,8 @@ const Contact = () => {
                 </label>
                 {errors.agree && <span className="error">{errors.agree}</span>}
 
-                <button type="submit">ارسال</button>
+                <Button type="submit" variant="solid" fullWidth> ارسال </Button>
+                
             </form>
         </section>
     )
