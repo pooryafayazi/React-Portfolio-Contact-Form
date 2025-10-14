@@ -45,7 +45,7 @@
 }
 
 .certs-img {
-    width: 600px !important;
+    max-width: 600px;
     border-radius: .5rem;
 }
 

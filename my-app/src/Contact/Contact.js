@@ -39,7 +39,7 @@ const Contact = () => {
 
 
     return (
-        <section>
+        <section className='contact'>
             <h2>تماس با من</h2>
             <form onSubmit={handleSubmit} noValidate className="form">
                 <label>

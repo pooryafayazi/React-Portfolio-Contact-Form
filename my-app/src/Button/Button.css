@@ -10,6 +10,9 @@
     transition: .2s ease;
     text-decoration: none;
     user-select: none;
+    background: #169fb1;
+    color: #fff;
+    border: 1px solid #169fb1;
 }
 
 .btn-block {
@@ -17,15 +20,23 @@
 }
 
 .btn-solid {
-    background: #222;
+    background: #169fb1;
     color: #fff;
-    border: 1px solid #222;
+    border: 1px solid #169fb1;
 }
 
 .btn-solid:hover {
     filter: brightness(1.1);
-    color: black;
-    border: 1px solid #bbb;
+    color: #169fb1;
+    border: 1px solid #169fb1;
+    background: #efefef;
+}
+
+.about .btn:hover {
+    filter: brightness(1.1);
+    color: #169fb1;
+    border: 1px solid #169fb1;
+    background: #efefef;
 }
 
 .btn-outline {
@@ -35,7 +46,7 @@
 }
 
 .btn-outline:hover {
-    background: #f4f4f4;
+    background: #efefef;
 }
 
 .btn-ghost {
@@ -45,7 +56,7 @@
 }
 
 .btn-ghost:hover {
-    background: #f6f6f6;
+    background: #efefef;
 }
 
 .btn-sm {

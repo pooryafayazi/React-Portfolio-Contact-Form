@@ -6,7 +6,7 @@ import './Projects.css'
 
 const Projects = () => {
   return (
-    <section>
+    <section className='projects'>
       <h2>نمونه‌کارها</h2>
       <p className="muted">برخی پروژه‌های اخیر در نمایندگی کاویانی و شخصی.</p>
       <div className="grid">

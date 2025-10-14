@@ -13,6 +13,9 @@
     gap: .5rem;
 }
 
+.card-head h3 {
+    color: #169fb1;
+}
 .badge {
     background: #f4f4f4;
     padding: .2rem .5rem;
@@ -36,10 +39,13 @@
     display: inline-block;
     padding: .5rem .8rem;
     border-radius: .6rem;
-    border: 1px solid #ddd;
+    background: #169fb1;
+    color: #fff;
+    border: 1px solid #169fb1;
 }
 
 .actions a:hover,
 .btn:hover {
     background: #efefef;
+    color: #169fb1;
 }

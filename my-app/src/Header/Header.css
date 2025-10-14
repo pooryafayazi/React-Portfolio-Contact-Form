@@ -9,10 +9,14 @@
     top: 0;
 }
 
+.header h1 {
+    color: #169fb1;
+}
 .header nav a {
     margin-inline: .5rem;
     padding: .4rem .7rem;
     border-radius: .6rem;
+    color: #169fb1;
 }
 
 .header nav a.active {

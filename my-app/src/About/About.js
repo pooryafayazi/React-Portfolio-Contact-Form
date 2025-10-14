@@ -1,10 +1,10 @@
 import React from 'react';
 import Certificates from '../Certificates/Certificates';
-
+import './About.css';
 
 const About = () => {
   return (
-    <section>
+    <section className='about'>
       <h2>دربارهٔ من</h2>
 
       <h3>تحصیلات</h3>
