@@ -1,12 +1,18 @@
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './Header.css'
-import Navbar from '../Navbar/Navbar';
 
 
 const Header = () => (
-    <div className='Header'>
-        <Navbar/>
-        <h3>shop</h3>
-    </div>
+    <header className="header">
+      <h1>سایت شخصی من</h1>
+      <nav>
+        <NavLink to="/" end>خانه </NavLink>
+        <NavLink to="/about"> درباره‌من </NavLink>
+        <NavLink to="/projects"> نمونه‌کارها</NavLink> 
+        <NavLink to="/contact">تماس</NavLink>
+      </nav>
+    </header>
 );
 
 export default Header;

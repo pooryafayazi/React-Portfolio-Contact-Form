@@ -1,5 +1,6 @@
-.Footer {
-    border-top: 1px solid grey;
-    padding: 10px;
-    margin-top: 40px;
+.footer {
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid #eee;
+    background: #fff;
 }

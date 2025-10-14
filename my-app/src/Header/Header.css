@@ -1,5 +1,20 @@
-.Header h3 {
-    border-top : 1px solid #999;
-    border-bottom : 1px solid #999;
-    padding: 10px;
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.25rem;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    position: sticky;
+    top: 0;
+}
+
+.header nav a {
+    margin-inline: .5rem;
+    padding: .4rem .7rem;
+    border-radius: .6rem;
+}
+
+.header nav a.active {
+    background: #efefef;
 }

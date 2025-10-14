@@ -1,0 +1,38 @@
+.Home {
+  /* اندازه و چینش محتوا */
+  min-height: 70vh;            /* قدِ سکشن */
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 3rem 1rem;
+
+  /* پس‌زمینه */
+  background-image: url('https://itmeter.ir/static/images/slider-03.jpg');
+  background-size: cover;       /* کل سکشن را پر کند */
+  background-position: center;  /* مرکز تصویر */
+  background-repeat: no-repeat;
+
+  /* متن سفید روی عکس */
+  color: #fff;
+  position: relative;
+}
+
+/* لایه محو (اختیاری، برای خوانایی متن) */
+.Home::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,.45);  /* شدت محو را تغییر بده */
+}
+
+/* متن بالای لایه محو قرار بگیرد */
+.Home > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* موبایل: اگر خواستی پارالاکس نداشته باشد، fixed را نگذار */
+@media (min-width: 992px) {
+  /* اگر افکت پارالاکس می‌خواهی، این‌را فعال کن */
+  /* .Home { background-attachment: fixed; } */
+}

@@ -1,9 +1,10 @@
+import React from 'react';
 import './Footer.css'
 
 const Footer = () => (
-    <div className='Footer'>
-        @Developed by Poory
-    </div>
+    <footer className="footer">
+      <small>© {new Date().getFullYear()} همه حقوق محفوظ است.</small>
+    </footer>
 );
 
 export default Footer;
