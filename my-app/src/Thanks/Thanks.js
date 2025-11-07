@@ -1,3 +1,4 @@
+// my-app/src/Thanks/Thanks.js
 import React from 'react';
 import { useLocation, Link } from 'react-router-dom';
 

@@ -1,3 +1,4 @@
+// my-app/src/Projects/Projects.js
 import React from 'react';
 import data from './projects.json';
 import ProjectCard from '../ProjectCard/ProjectCard';

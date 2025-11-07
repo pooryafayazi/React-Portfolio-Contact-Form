@@ -1,3 +1,4 @@
+// my-app\src\Certificates\Certificates.js
 import React, { useMemo, useState } from 'react';
 import Button from '../Button/Button';
 import data from './certificates.json';
